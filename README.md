@@ -15,7 +15,7 @@ Uses an analog sensor to control the brightness of an LED, mimicking a simple di
 ### 3. **LDR Controlled LED Lamp**
 This project demonstrates how light can be used to control an LED based on ambient light conditions.  
 
-### 4. **Temperature Controlled Buzzer/Fan**
+### 4. **Temperature Controlled Buzzer/Fan using NTC**
 A temperature-based system that triggers a buzzer or fan when a set threshold is exceeded.  
 
 ### 5. **LED Lamp with Switch**
