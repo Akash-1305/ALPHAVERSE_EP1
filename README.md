@@ -1,4 +1,4 @@
-# ALPHAVERSE_EP1: A Collection of Arduino Projects
+# ALPHAVERSE_EP1
 
 Welcome to **ALPHAVERSE_EP1**, a compilation of fun and functional Arduino projects designed to enhance your understanding of embedded systems, sensors, and basic electronics. Whether you're just starting out or you're looking to add new projects to your portfolio, this file provides a diverse range of ideas, from motion detectors to musical doorbells.
 
