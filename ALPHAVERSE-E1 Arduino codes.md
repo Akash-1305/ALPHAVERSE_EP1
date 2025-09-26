@@ -80,7 +80,7 @@ void loop() {
 
 ---
 
-## Project 4 - Temperature Controlled Buzzer/Fan
+## Project 4 - Temperature Controlled Buzzer/Fan using NTC
 ```cpp
 const int pinNTC = A3;
 const int pinBuz = 13;
@@ -261,3 +261,4 @@ void loop() {
   delay(200);
 }
 ```
+
