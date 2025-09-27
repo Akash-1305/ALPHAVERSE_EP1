@@ -4,31 +4,31 @@ Welcome to **ALPHAVERSE_EP1**, a compilation of fun and functional Arduino proje
 
 Each project is carefully crafted with clear, simple code, allowing you to easily replicate the circuit and understand the logic behind it. The projects focus on using common sensors like PIR, LDR, and NTC thermistors, as well as outputs like LEDs, buzzers, and motors.
 
-## Projects Overview
+## Projects Overview 
 
-### 1. **PIR Motion Detector**
-An introductory project that activates a buzzer when motion is detected.  
-
-### 2. **LED Brightness Control**
+### 1. **LED Brightness Control**
 Uses an analog sensor to control the brightness of an LED, mimicking a simple dimmer.  
 
-### 3. **LDR Controlled LED Lamp**
+### 2. **LDR Controlled LED Lamp**
 This project demonstrates how light can be used to control an LED based on ambient light conditions.  
 
-### 4. **Temperature Controlled Buzzer/Fan using NTC**
+### 3. **Temperature Controlled Buzzer/Fan using NTC**
 A temperature-based system that triggers a buzzer or fan when a set threshold is exceeded.  
 
-### 5. **LED Lamp with Switch**
+### 4. **LED Lamp with Switch**
 A simple project to control an LED with a button press.  
 
-### 6. **Musical Door Bell**
+### 5. **Musical Door Bell**
 Play a short melody when a button is pressed, creating a unique musical doorbell system.  
 
-### 7. **Mini DC Fan**
+### 6. **Mini DC Fan**
 Control a fan using a tactile switch, providing basic control of motorized components. 
 
-### 8. **Water Level and Conductivity Indicator**
+### 7. **Water Level and Conductivity Indicator**
 Monitor the water level using analog sensors and trigger a color-coded LED system, with buzzer feedback.  
+
+### 8. **PIR Motion Detector**
+An introductory project that activates a buzzer when motion is detected. 
 
 ### Software Requirements
 - **Arduino IDE**: All the code is written in Arduino C/C++ and is compatible with the official Arduino IDE. Download it [here](https://www.arduino.cc/en/software).
