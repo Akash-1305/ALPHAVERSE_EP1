@@ -2,6 +2,21 @@
 
 ---
 
+## Test Ardoino
+```cpp
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
+}
+
+```
+
 ## Project 1 - LED Brightness Control
 ```cpp
 const int analogInPin = A3;
@@ -261,5 +276,6 @@ void loop() {
  delay(1000);
 }
 ```
+
 
 
