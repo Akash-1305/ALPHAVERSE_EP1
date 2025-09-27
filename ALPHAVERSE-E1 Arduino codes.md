@@ -148,7 +148,7 @@ void setup() {
 
 void loop() {
  int pPinState = digitalRead(pPin);
- if (pPinState == LOW) {
+ if (pPinState == HIGH) {
    for (int thisNote = 0; thisNote < musicLength; thisNote++) {
      int noteDuration = 2000 / noteDurations[thisNote];
      tone(Speakerpin, melody[thisNote], noteDuration);
@@ -276,6 +276,7 @@ void loop() {
  delay(1000);
 }
 ```
+
 
 
 
