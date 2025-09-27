@@ -2,35 +2,7 @@
 
 ---
 
-## Project 1 - PIR Motion Detector
-```cpp
-const int PIRpin = 8;
-const int BUZpin = 13;
-int PIRstate = 0;
-
-void setup() {
- pinMode(BUZpin, OUTPUT);
- pinMode(PIRpin, INPUT);
- Serial.begin(9600);
- Serial.println("PIR Sensor Test Started...");
-}
-
-void loop() {
- PIRstate = digitalRead(PIRpin);
- Serial.print("PIR State: ");
- Serial.println(PIRstate);
- if (PIRstate == HIGH) {
-  digitalWrite(BUZpin, HIGH);
- } else {
-  digitalWrite(BUZpin, LOW);
- }
- delay(1000);
-}
-```
-
----
-
-## Project 2 - LED Brightness Control
+## Project 1 - LED Brightness Control
 ```cpp
 const int analogInPin = A3;
 const int OutPin = 9;
@@ -55,7 +27,7 @@ void loop() {
 
 ---
 
-## Project 3 - LDR Controlled LED Lamp
+## Project 2 - LDR Controlled LED Lamp
 ```cpp
 const int pinLDR = A3;
 const int pinLedW = 13;
@@ -80,7 +52,7 @@ void loop() {
 
 ---
 
-## Project 4 - Temperature Controlled Buzzer/Fan using NTC
+## Project 3 - Temperature Controlled Buzzer/Fan using NTC
 ```cpp
 const int pinNTC = A3;
 const int pinBuz = 13;
@@ -105,7 +77,7 @@ void loop() {
 
 ---
 
-## Project 5 - LED Lamp with Switch
+## Project 4 - LED Lamp with Switch
 ```cpp
 const int buttonPin = 5;
 const int ledPin = 13;
@@ -128,7 +100,7 @@ void loop() {
 
 ---
 
-## Project 6 - Musical Door Bell
+## Project 5 - Musical Door Bell
 ```cpp
 const int Speakerpin = 9;
 const int pPin = 5;
@@ -179,7 +151,7 @@ void loop() {
 
 ---
 
-## Project 7 - Mini DC Fan
+## Project 6 - Mini DC Fan
 ```cpp
 const int TactPin = 5;
 const int FanPin = 9;
@@ -203,7 +175,7 @@ void loop() {
 
 ---
 
-## Project 8 - Water Level and Conductivity Indicator
+## Project 7 - Water Level and Conductivity Indicator
 ```cpp
 const int sensorPinR = A0;
 const int sensorPinB = A1;
@@ -261,4 +233,33 @@ void loop() {
   delay(200);
 }
 ```
+
+---
+
+## Project 8 - PIR Motion Detector
+```cpp
+const int PIRpin = 8;
+const int BUZpin = 13;
+int PIRstate = 0;
+
+void setup() {
+ pinMode(BUZpin, OUTPUT);
+ pinMode(PIRpin, INPUT);
+ Serial.begin(9600);
+ Serial.println("PIR Sensor Test Started...");
+}
+
+void loop() {
+ PIRstate = digitalRead(PIRpin);
+ Serial.print("PIR State: ");
+ Serial.println(PIRstate);
+ if (PIRstate == HIGH) {
+  digitalWrite(BUZpin, HIGH);
+ } else {
+  digitalWrite(BUZpin, LOW);
+ }
+ delay(1000);
+}
+```
+
 
